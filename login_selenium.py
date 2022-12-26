@@ -9,12 +9,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 class ChromeSearch(unittest.TestCase):
     def test_login_working(self):
-        driver = webdriver.Chrome(executable_path='C:/Users/shahk/chromedriver_win32/chromedriver.exe')
+        driver = webdriver.Chrome(executable_path=' ')
         #driver = webdriver.Chrome('./chromedriver')
-        driver.get("https://bu-marketplace.herokuapp.com/log_in")
+        driver.get(" ")
         k=driver.current_url
-        email = "ghosttest@bu.edu"
-        passwr = "ghosttest@bu.edu"
+        email = " "
+        passwr = " "
 # find username/email field and send the username itself to the input field
         driver.find_element("id","email").send_keys(email)
 # find password input field and insert password as well
