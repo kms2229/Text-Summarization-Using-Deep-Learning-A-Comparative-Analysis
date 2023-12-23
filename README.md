@@ -1,13 +1,1 @@
-# selenium-general-codes
-
-This code files are a general version of selenium testing for folllowing:
-
-1. website working
-2. Login
-3. Logout
-4. Signup
-
-To run the selenium test cases install webdriver of crome browser 
-link to install :
-https://chromedriver.chromium.org/
-
+# Text Summarization Using Deep Learning: A Comparative Analysis ## Introduction This project, authored by Kavach Shah, aims to explore and compare different deep learning models for text summarization. Specifically, it evaluates spaCy and optimized T-5 models using the CNN/DailyMail dataset. ## Project Structure - **Data Cleaning**: Initial steps to prepare the dataset for model training. - **Model Creation**: Details on the setup and tuning of spaCy and T-5 models. - **Evaluation**: Methodology and results of the Rouge score evaluation for each model. ## Results The study provides a comparative analysis of the models, highlighting their strengths and weaknesses in text summarization tasks.
